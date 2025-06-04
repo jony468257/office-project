@@ -1,0 +1,43 @@
+<?php
+
+// lang/en/messages.php
+
+return [
+    'dashboard' => 'ড্যাশবোর্ড',
+    'menu' => 'মেনু',
+    //Menu List
+    'basic_information' => 'বেসিক ইনফরমেশন',
+    'slider' => 'স্লাইডার',
+    'about_us' => 'আমাদের সম্পর্কে',
+    'glance' => 'এক নজরে',
+    'history' => 'ইতিহাস',
+    'study' => 'এখানে পড়াশোনা কেন?',
+    'mission_vision' => 'মিশন এবং ভিশন',
+    'infrastructure' => 'অবকাঠামো',
+    'news_events' => 'সংবাদ ও ঘটনা',
+    'achievement' => 'অর্জন',
+    'administration' => 'প্রশাসন',
+    'chairman' => 'চেয়ারম্যান এর  বার্তা',
+    'head_sir' => 'হেড স্যারের বার্তা',
+    'teachers' => 'শিক্ষক',
+    'faq' => 'এফ এ কিউ',
+    'academic' => 'একাডেমিক',
+    'academic_calendar' => 'একাডেমিক ক্যালেন্ডার',
+    'class_routine' => 'ক্লাস রুটিন',
+    'exam_routine' => 'পরীক্ষার রুটিন',
+    'notice' => 'নোটিস',
+    'admission' => 'ভর্তি',
+    'insurance' => 'বীমা',
+    'admission_result' => 'ভর্তি ফলাফল',
+    'gallery' => 'গ্যালারি',
+    'contacts' => 'আমাদের সাথে যোগাযোগ',
+    'add' => 'যোগ করুন',
+    'edit' => 'এডিট',
+    'delete' => 'ডিলিট',
+    'submit' => 'সাবমিট',
+    'action' => 'অ্যাকশন',
+    'search' => 'অনুসন্ধান',
+    'add_new' => 'নতুন যোগ করুন',
+    'see_list' => 'তালিকা দেখুন',
+    'list' => 'তালিকা',
+];

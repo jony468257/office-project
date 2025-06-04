@@ -1,0 +1,43 @@
+<?php
+
+// lang/en/messages.php
+
+return [
+    'dashboard' => 'Dashboard',
+    'menu' => 'Menu',
+    //Menu List
+    'basic_information' => 'Basic Information',
+    'slider' => 'Slider',
+    'about_us' => 'About Us',
+    'glance' => 'About Us',
+    'history' => 'Research & Development',
+    'study' => 'Why Study Here?',
+    'mission_vision' => 'Mission and Vision',
+    'infrastructure' => 'Services',
+    'news_events' => 'Area of Activity',
+    'achievement' => 'Awards',
+    'administration' => 'Administration',
+    'chairman' => 'Chairman Message',
+    'head_sir' => 'Head Sir Message',
+    'teachers' => 'Teachers',
+    'faq' => 'FAQ',
+    'academic' => 'Academic',
+    'academic_calendar' => 'Academic Calendar',
+    'class_routine' => 'Class Routine',
+    'exam_routine' => 'Exam Routine',
+    'notice' => 'Testimonial',
+    'admission' => 'Admission',
+    'insurance' => 'Insurance',
+    'admission_result' => 'Pricing',
+    'gallery' => 'Gallery',
+    'contacts' => 'Contacts Us',
+    'add' => 'Add',
+    'edit' => 'Edit',
+    'delete' => 'Delete',
+    'submit' => 'Submit',
+    'action' => 'Action',
+    'search' => 'Search',
+    'add_new' => 'Add New',
+    'see_list' => 'See List',
+    'list' => 'List',
+];

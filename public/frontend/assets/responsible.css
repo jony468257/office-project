@@ -1,0 +1,138 @@
+@media only screen and (max-width: 500px) {
+    .top_bar{
+        padding: 6px 5px !important;
+        gap: 43px;
+        z-index: 999;
+    }
+    .top_title{
+        height: 50px !important;
+        width: auto;
+    }
+    .top_title img{
+        display: flex;
+        width: 35px !important;
+        height: 40px !important;
+        padding: 3px !important;
+        border-radius: 5px !important;
+    }
+    .second_logo{
+        padding: 2px 2.5px !important;
+    }
+    .top_bar h3{
+        color: #FFF;
+        margin: 0;
+        font-size: 20px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .tb_border{
+        margin-right: 1rem !important;
+        font-size: 14px !important;
+
+    }
+    .tb_bg{
+        margin-right: 1rem !important;
+        font-size: 14px !important;
+
+    }
+    .row>* {
+        flex-shrink: 0;
+        width: auto !important;
+    }
+    .sidemenu_1 {
+        width: 90px !important;
+        height: 50px !important;
+
+    }
+    .sideMenu a {
+        font-size: 14px !important;
+    }
+    .Page-sideMenu a {
+        font-size: 14px !important;
+    }
+    .sidemenu_2 {
+        width: 90px !important;
+        height: 50px !important;
+    }
+    .hover-content {
+        left: 99px !important;
+    }
+    .sidemenu1-2 {
+        width: 90px !important;
+        height: 50px !important;
+    }
+    .sidemenu1-3 {
+        width: 90px !important;
+        height: 50px !important;
+    }
+    .sidemenu_arrow{
+        margin-top: 0.5rem !important;
+    }
+    .total_org {
+        grid-area: 1 / 1 / span 1 / span 12 !important;
+    }
+    /*row-position / column-position / row-span / column-span/ */
+    .total_zila {
+        grid-area:  2 / 1 / span 1 / span 12 !important;
+    }
+
+    .total_upazila {
+        grid-area:  3 / 1 / span 1 / span 12 !important;
+    }
+
+    .total_member {
+        grid-area:  4 / 1 / span 1 / span 12 !important;
+    }
+
+    .total_service {
+        grid-area:  5 / 1 / span 1 / span 12 !important;
+    }
+    .total_org{
+        padding: 1.125rem 4.70206rem 1.07294rem 4.7rem !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+    .resp_top_marg{
+        margin-top: 1.5rem !important;
+    }
+    #main-slider img{
+        height: 55vh !important;
+    }
+    .sideMenu {
+        top: 17% !important;
+    }
+    .Page-sideMenu{
+        top: 10% !important;
+    }
+    .photo_title {
+        font-size: 4rem !important;
+        margin: 0 !important;
+    }
+    .service_title {
+        margin-top: 3rem !important;
+        font-size: 4rem !important;
+    }
+    .breadcrumb_title{
+        font-size: 3rem !important;
+    }
+    .main_title{
+        margin: 0 !important;
+    }
+    .member_list{
+        justify-content: center !important;
+    }
+    .fs-5{
+        font-size: 14px !important;
+    }
+    .fs-3{
+        font-size: 18px !important;
+    }
+    .our_info{
+        font-size: 2.3rem !important;
+    }
+    .loction-map{
+        height: 300px !important;
+    }
+
+}

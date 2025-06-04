@@ -1,0 +1,53 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('research_and_development', function (Blueprint $table) {
+            $table->id();
+            $table->string('title_en', 255)->nullable()->comment('English Title');
+            $table->string('title_bn', 255)->comment('Bangla Title');
+            $table->text('description_en', 1000)->nullable()->comment('English Description');
+            $table->text('description_bn', 1000)->comment('Bangla Description');
+            $table->string('button_name')->comment('button name for each button');
+            $table->string('button_url', 255)->nullable()->comment('button url for each button');
+            $table->string('image')->comment('Image Path');
+            $table->string('banner_image')->comment('Image Path');
+            $table->string('problem', 255)->nullable()->comment('problem title');
+            $table->text('problem_desc', 255)->nullable()->comment('problem desc');
+            $table->string('solution_title', 255)->nullable()->comment('solution title');
+            $table->string('solution_image')->comment('solution image');
+
+            $table->string('features_title', 255)->nullable()->comment('features title');
+            $table->text('solution_desc')->nullable()->comment('solution desc');
+            $table->json('solution_data')->nullable()->comment('Solution keys and images as JSON');
+            $table->json('features_data')->nullable()->comment('Feature keys and images as JSON');
+            $table->json('works_data')->nullable()->comment('Works keys as JSON');
+
+            $table->string('works_title', 255)->nullable()->comment('works title');
+            $table->string('works_desc', 255)->nullable()->comment('works title');
+            $table->string('works_image')->comment('Image Path');
+
+            $table->boolean('row_status')->default(true)->comment('Row Status (Active/Inactive)');
+            $table->softDeletes();
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('research_and_development');
+    }
+};
